@@ -1,6 +1,6 @@
 /*
 Fibonacci Series
-Started on: 9th, feb, 2017
+Start Date: 9 Feb, 2017
 Output:
 Enter the number of elements in sequence: 15
 0 1 1 2 3 5 8 13 21 34 55 89 144 233 377

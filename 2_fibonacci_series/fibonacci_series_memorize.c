@@ -1,6 +1,6 @@
 /*
 Fibonacci series with recursion
-Started on: 10th, feb, 2017
+Start Date: 10 Feb, 2017
 Output:
 
 Enter the element position in fibonacci series: 6
