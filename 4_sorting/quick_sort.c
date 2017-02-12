@@ -1,5 +1,5 @@
 /*
-Merge Sort
+Quick Sort
 Start Date: 12 Feb, 2017
 Complexity:
 Worst-case: O(N2) Best-case O(NlogN) Average-case - O(NlogN)
@@ -17,7 +17,7 @@ int partition(int* a, int p, int r){
 	i = p - 1;
 	x = a[r];
 	for(j = p; j <=r-1; j++){
-		if (a[j] <= x && (i != j)) { //i != j remove the self replacing options
+		if (a[j] <= x && (i != j)) { //i != j remove the self replacing conditions
 			i = i + 1;
 			temp = a[i];
 			a[i] = a[j];
@@ -29,6 +29,7 @@ int partition(int* a, int p, int r){
 	a[r] = temp;
   return i+1;
 }
+
 void quicksort(int* a, int p, int r){
 	int q;
 	if (p < r) {
