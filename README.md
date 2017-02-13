@@ -8,4 +8,5 @@
 	- [Pascal Triangle](3_pascal_triangle/pascal_triangle.c)
 	- Sorting
 		- [Quick Sort](4_sorting/quick_sort.c)
+		- [Merge Sort](4_sorting/merge_sort.c)
 

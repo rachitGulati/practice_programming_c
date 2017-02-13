@@ -10,8 +10,6 @@ Sorted Array for [3, 1, 5, 8, 0, 19, 30, 9, 25, 19}] is below:
 
 
 #include <stdio.h>
-//void quicksort(int [], int, int);
-//int partition(int a[], int p, int r);
 int partition(int* a, int p, int r){
 	int i, j, x, temp;
 	i = p - 1;
@@ -40,10 +38,10 @@ void quicksort(int* a, int p, int r){
 }
 
 int main() {
-	int a[10] = {3, 1, 5, 8, 0, 19, 30, 9, 25, 19};
-	quicksort(&a[0], 0, 9);
+	int a[10] = {3, 1, 5, 8, 0, 19, 30, 9, 25, 19}, len = sizeof(a)/sizeof(a[0]);
+	quicksort(&a[0], 0, len -1 );
 	printf("Sorted Array for [3, 1, 5, 8, 0, 19, 30, 9, 25, 29}] is below:\n");
-	for(int i = 0; i < 10; i++) {
+	for(int i = 0; i < len ; i++) {
 		printf("%d ", a[i]);
 	}
 
